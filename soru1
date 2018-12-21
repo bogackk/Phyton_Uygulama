@@ -1,0 +1,19 @@
+dosya = open("C:\phyton_uygulama/221120181012_sonuc.txt","w")
+Sayılar = []
+
+a = int(input("Birinci Sayı : "))
+b = int(input("İkinci Sayı : "))
+c = int(input("Üçüncü Sayı : "))
+d = int(input("Dördüncü Sayı : "))
+e = int(input("Beşinci Sayı : "))
+Sayılar.append(a)
+Sayılar.append(b)
+Sayılar.append(c)
+Sayılar.append(d)
+Sayılar.append(e)
+
+Sayılar.sort(reverse=True)
+print(Sayılar)
+for i in Sayılar:
+    dosya.write(str(i))
+    dosya.write(" ")
