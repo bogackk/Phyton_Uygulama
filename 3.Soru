@@ -1,6 +1,6 @@
 Toplam = 0
 x = 1
-for x in range(1001):
+for x in range(1,1001):
     Sonuç = x**x
     Toplam += Sonuç
 a = ( Toplam % 10000000000 )
